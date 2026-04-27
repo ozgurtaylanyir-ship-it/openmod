@@ -1,0 +1,9 @@
+architectury {
+    common("fabric", "forge")
+}
+
+dependencies {
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
+    modApi "dev.architectury:architectury:${rootProject.architectury_version}"
+    implementation "org.java-websocket:Java-WebSocket:1.5.4"
+}
